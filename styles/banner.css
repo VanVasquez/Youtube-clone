@@ -1,0 +1,59 @@
+.banner-image {
+  position: absolute;
+  background-image: url(/res/banner/b707658a51c9c286e61e1f91ef853ff24e9c8bbb4a22106db9c52f3403400412_2560x520.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-left: 20px;
+}
+.banner-image > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 500px;
+  height: 100%;
+}
+.yt-svg {
+  display: flex;
+  align-items: center;
+}
+.yt-svg img {
+  width: 50px;
+  height: 45px;
+}
+.yt-svg span {
+  font-size: 1.4rem;
+  color: rgb(88, 88, 88);
+  font-weight: 700;
+}
+.yt-text {
+  width: 400px;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.yt-button {
+  font-size: 0.8rem;
+  padding: 10px 14px;
+  color: #1b60b5;
+  border: 2px solid #1b60b5;
+}
+.close-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  rotate: 45deg;
+}

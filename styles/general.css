@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', arial, sans-serif;
+}
+/*scroll bar design*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+html {
+  position: relative;
+}
+body {
+  background-color: #f9f9f9;
+  height: 1000px;
+  padding-top: 24.5rem;
+  padding-left: 16.2rem;
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 8px;
+  height: 3.5rem;
+  background-color: rgba(255, 255, 255, 0.985);
+  z-index: 100;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+label {
+  position: relative;
+}
+side-bar {
+  position: fixed;
+  top: 3.4rem;
+  left: 0;
+  bottom: 0;
+  width: 15rem;
+  overflow-y: scroll;
+  padding-top: 8px;
+  background-color: rgba(255, 255, 255, 0.985);
+}
+side-bar::-webkit-scrollbar {
+  width: 8px;
+}
+side-bar::-webkit-scrollbar-track {
+  background: none;
+}
+side-bar::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 10px;
+}
+side-bar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+side-bar:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+chip-bar {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 15rem;
+  right: 0;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9999);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+chip-bar::-webkit-scrollbar {
+  height: 4px;
+}
+chip-bar::-webkit-scrollbar-track {
+  background: none;
+}
+chip-bar::-webkit-scrollbar-thumb {
+  background: none;
+  border-radius: 10px;
+}
+chip-bar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+chip-bar:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+banner {
+  z-index: -1;
+  position: absolute;
+  top: 7.5rem;
+  left: 15rem;
+  right: 10px;
+  height: 250px;
+  width: 100%;
+}
